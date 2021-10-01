@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "Salesforce",
+  "name": "zimbra-zimlet-export-ics",
   "version": "1.0.0",
   "license": "MIT",
   "description": "TBD",
