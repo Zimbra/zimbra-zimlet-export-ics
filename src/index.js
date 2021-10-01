@@ -1,5 +1,5 @@
 //Load components from Zimbra
-import { createElement, Fragment } from 'preact';
+import { createElement } from 'preact';
 import { provide } from 'preact-context-provider';
 
 //Load the createMore function from our Zimlet component
