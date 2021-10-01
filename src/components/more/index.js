@@ -13,7 +13,7 @@ function createMore(props, context) {
 }
 
 function handleClick(props, context) {
-   window.open(`/service/home/~/?auth=co&id=${props.eventToDisplay.id}&mime=text/plain&noAttach=0&filename=${encodeURIComponent(props.eventToDisplay.name)}.ics`);
+   window.open(`/service/home/~/?auth=co&id=${encodeURIComponent(props.eventToDisplay.id)}&mime=text/plain&noAttach=0&filename=${encodeURIComponent(props.eventToDisplay.name)}.ics`);
 }
 
 export default compose(withIntl())(createMore)
