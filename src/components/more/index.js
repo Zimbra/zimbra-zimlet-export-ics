@@ -6,7 +6,6 @@ import { compose } from 'recompose';
 import { withIntl } from '../../enhancers';
 
 function createMore(props, context) {
-   //https://medium.com/@KTAsim/react-performance-event-handlers-using-usecallback-hook-9e4a06f8bb2f
    const downloadICSHandler = useCallback(() => {
       downloadICS(props, context)
    }, [props, context]);
